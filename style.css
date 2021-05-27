@@ -1,0 +1,393 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.header{
+    display: grid;
+    grid-template-columns: 20% 80%;
+    height: 15vh;
+    background-color: #3d405b;
+}
+
+.con{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 3rem;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 150%;
+}
+
+.logo h2{
+    color: cornsilk;
+}
+
+.nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav ul li{
+    padding: 1rem 2rem 1rem 2rem;
+    list-style: none;
+}
+
+.nav ul li a{
+    color: white;
+    text-decoration: none;
+
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto auto;
+}
+
+.con1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.con1 h2{
+    color: #Ee3dc9;
+    font-size: 200%;
+    font-family: sans-serif;
+}
+
+.con1 button{
+    margin: 3rem;
+    padding: 1rem;
+    font-size: 150%;
+    border-radius: 30px;
+    background: #Ee3dc9;
+    color: white;
+}
+
+.c1{
+    flex-direction: column;
+}
+
+.c1 h2{
+    padding: 2rem 2rem 0.5rem 2rem;
+}
+
+.c1 img{
+    width: 50%;
+ }
+
+.c2 img{
+    width: 70%;
+    padding: 4rem;
+}
+
+.con3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.con3 h2{
+    color: #Ee3dc9;
+    font-family: sans-serif;
+    font-size: 400%;
+    padding: 2rem;
+}
+
+.c3 ul li{
+    list-style: none;
+    padding: 2rem;
+    font-size: 150%;
+}
+
+.con4{
+    height: 100vh;
+}
+
+.c4{
+    width: 55%;
+}
+
+.c4 img{
+    width: 100%;
+}
+
+.con4{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+/* --- OUR TEAM SECTION --- */
+.con5{
+    padding: 4rem;
+    display: grid;
+    background : white;
+    gap: 2%;
+}
+
+.con5 h1{
+    padding-bottom: 1%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 260%;
+    font-weight: bold;
+    color: #Ee3dc9;
+}
+
+.con5 hr{
+    width: 18%;
+}
+
+.profiles{
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+    padding-top: 2%;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.prof{
+    text-align: center;
+    padding: 1rem;
+    width: 20%;
+}
+
+.prof h3{
+    color: #Ee3dc9;
+}
+
+.prof img{
+    border: 4px solid #Ee3dc9;
+    margin-left: 10px;
+    width: 60%;
+    border-radius: 100%;
+}
+
+.prof h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 110%;
+}
+
+.prof p{
+    padding: 10px;
+}
+/* THE END OF OUR TEAM SECTION */
+
+.reviews{
+    justify-content: space-around;
+}
+
+.rev span{
+    color: #Ee3dc9;
+    font-size: 200%;
+}
+
+.rev{
+    line-height: 150%;
+}
+
+/* THE START OF FOUTH SECTION */
+.con6{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+}
+
+.textCont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.textCont h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 500%;
+    font-weight: bold;
+    color: #Ee3dc9;
+}
+
+.textCont h3{
+    color: #Ee3dc9;
+    font-size: 500%;
+    font-weight: bold;
+}
+
+.formCon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form{
+    padding: 7%;
+    padding-top: 4%;
+}
+
+.form h2{
+    padding: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 150%;
+    color: #Ee3dc9;
+}
+
+.form label{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 20px;
+}
+
+.form input{
+    font-size: 120%;
+    padding: 20px;
+    width: 60%;
+}
+
+.button{
+    background: #Ee3dc9;
+    font-size: 150%;
+    width: 150px;
+    height: 40px;
+    border-radius: 30px;
+}
+/* THE END OF FOURTH SECTION */
+
+/* ---THE FOOTER SECTION --- */
+.footer{
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    background: #3d405b;
+}
+
+.child{
+    padding: 3%;
+    color: cornsilk;
+}
+
+.child h1{
+    font-size: 100%;
+}
+
+.child ul {
+    list-style: none;
+    padding: 10px;
+}
+
+.child ul li{
+    padding-top: 10px;
+}
+
+.child ul li a{
+    text-decoration: none;
+    color: darkgray;
+}
+/*THE END OF FOOTER SECTION*/
+
+.topButton{
+    border-radius: 100%;
+    height: 40px;
+    width: 40px;
+    position: fixed;
+    right: 2rem;
+    bottom: 2rem;
+}
+
+.topButton img{
+    width: 100%;
+}
+
+@media only screen and (max-width: 425px){
+    .header{
+        grid-template-columns: 100%;
+    }
+    .container{
+        grid-template-columns: 100%;
+    }
+
+    .con6{
+        grid-template-columns: 100%;
+    }
+
+    .con5{
+        padding: 2rem;
+    }
+
+    .con5 img{
+        width: 80%;
+    }
+
+    .prof{
+        width: 40%;
+    }
+
+    .c3{
+        padding: 2rem;
+    }
+
+    .c4{
+        padding: 2rem;
+        width: 80%;
+    }
+
+    .con1{
+        padding: 2rem;
+    }
+
+    .nav{
+        padding: 0px;
+    }
+
+    .nav ul li{
+        font-size: 90%;
+    }
+
+    .logo h2{
+        margin: 2rem;
+    }
+
+    .header{
+        height: auto;
+    }
+
+    .nav ul li{
+        padding: 1rem 1rem 1rem 1rem;
+    }
+
+    .nav{
+        display: flex;
+        justify-content: center;
+    }
+
+    .textCont h2{
+        font-size: 400%;
+    }
+
+    .c2 img{
+        width: 70%;
+        padding: 2rem;
+    }
+}

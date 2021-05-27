@@ -1,0 +1,22 @@
+{
+    "name": "Blink-Official",
+    "short_name": "BLINK",
+    "start_url": "https://mr-lazyprogrammer.github.io/PWA/",
+    "icons": [
+        {
+            "src": "/PWA/icons1/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "maskable any"
+        },
+        {
+            "src": "/PWA/icons1/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable any"
+        }
+    ],
+    "theme_color": "#ffffff",
+    "background_color": "#ffffff",
+    "display": "standalone"
+}
